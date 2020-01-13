@@ -1,6 +1,7 @@
 package test.pivotal.pal.trackerapi;
 
 import io.pivotal.pal.tracker.PalTrackerApplication;
+import io.pivotal.pal.tracker.WelcomeController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
