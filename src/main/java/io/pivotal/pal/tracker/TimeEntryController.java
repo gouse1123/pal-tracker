@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 public class TimeEntryController {
 
-    private TimeEntryRepository timeEntryRepository = PalTrackerApplication.getRepo();
+    private TimeEntryRepository timeEntryRepository;
 
     public TimeEntryController(TimeEntryRepository timeEntryRepository) {
         this.timeEntryRepository = timeEntryRepository;
